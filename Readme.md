@@ -23,7 +23,7 @@ Blizanac will save and persist each successful result into a table view for late
  - Alamofire - networking library
  - SwiftyJSON - JSON parsing library
  - SDWebImage - asynchronous image downloader
- - ChameleonFramework - color framwork for iOS
+ - ChameleonFramework - color framework for iOS
 
 ## License/Acknowledgments
 Blizanac uses the VGG Face CNN descriptor model (Caffe) trained from using 2.6 million images of celebrities collected from the web.
