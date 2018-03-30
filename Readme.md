@@ -8,7 +8,7 @@ You will need a phone with a camera and an internet connection.  Because of the 
 ## Installation
 Open the Blizanac.xcworkspace file in Xcode, connect a phone to the computer, build the project, and run it on the phone.
 
-Please download the .mlmodel file separately (https://drive.google.com/open?id=13c_FtvSMpReY0Lf35RUVR_XTjtpktziK), move it into the /Blizanac/Blizanac/ directory (same level as the AppDelegate.swift file) before building and running the project in Xcode.
+Please download the celebface.mlmodel file separately (https://drive.google.com/open?id=13c_FtvSMpReY0Lf35RUVR_XTjtpktziK), move it into the /Blizanac/Blizanac/ directory (same level as the AppDelegate.swift file) before building and running the project in Xcode.
 
 ## Usage
 After starting Blizanac, tap on either the "Take a selfie" or "Photo Library" button to select a photo.  When you are done cropping the photo, tap on "Use Photo" and the app will present the results to you.  The results will include your photo, the percentage and name of the celebrity match, as well as an image and summary of the celebrity from wikipedia (if available).
@@ -23,9 +23,30 @@ Blizanac will save and persist each successful result into a table view for late
  - Alamofire - networking library
  - SwiftyJSON - JSON parsing library
  - SDWebImage - asynchronous image downloader
- - ChameleonFramework - color framwork for iOS
+ - ChameleonFramework - color framework for iOS
 
-## License/Acknowledgments
+## License
+Copyright (c) 2018 Brian Jahng
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+## Acknowledgments
 Blizanac uses the VGG Face CNN descriptor model (Caffe) trained from using 2.6 million images of celebrities collected from the web.
 
 Deep Face Recognition
