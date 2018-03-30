@@ -8,7 +8,7 @@ You will need a phone with a camera and an internet connection.  Because of the 
 ## Installation
 Open the Blizanac.xcworkspace file in Xcode, connect a phone to the computer, build the project, and run it on the phone.
 
-Please download the .mlmodel file separately (https://drive.google.com/open?id=13c_FtvSMpReY0Lf35RUVR_XTjtpktziK), move it into the /Blizanac/Blizanac/ directory (same level as the AppDelegate.swift file) before building and running the project in Xcode.
+Please download the celebface.mlmodel file separately, move it into the /Blizanac/Blizanac/ directory (same level as the AppDelegate.swift file) before building and running the project in Xcode.  The approximately 580 mb mlmodel file can be downloaded here: [Google Drive link](https://drive.google.com/open?id=13c_FtvSMpReY0Lf35RUVR_XTjtpktziK).
 
 ## Usage
 After starting Blizanac, tap on either the "Take a selfie" or "Photo Library" button to select a photo.  When you are done cropping the photo, tap on "Use Photo" and the app will present the results to you.  The results will include your photo, the percentage and name of the celebrity match, as well as an image and summary of the celebrity from wikipedia (if available).
