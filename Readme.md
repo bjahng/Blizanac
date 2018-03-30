@@ -14,6 +14,9 @@ Please download the celebface.mlmodel file separately, move it into the /Blizana
 ## Usage
 After starting Blizanac, tap on either the "Take a selfie" or "Photo Library" button to select a photo.  When you are done cropping the photo, tap on "Use Photo" and the app will present the results to you.  The results will include your photo, the percentage and name of the celebrity match, as well as an image and summary of the celebrity from wikipedia (if available).
 
+![Main](https://github.com/bjahng/Blizanac/blob/master/Screenshots/Main.PNG)
+![Results](https://github.com/bjahng/Blizanac/blob/master/Screenshots/Results.PNG)
+
 If the photo does not match a celebrity or the match is less than 1%, you will have to try again.  For best results, use tightly cropped photos and try to get as much of the face as possible in the frame.
 
 Blizanac will save and persist each successful result into a table view for later viewing.  To access the table view, go to the main menu and tap on "Recent".  You can also delete entries in the table view by swiping.
