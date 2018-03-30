@@ -1,5 +1,4 @@
 # Blizanac
-
 Blizanac means "twin" in Croatian.  This app will find your celebrity doppelganger or look-alike.  Take or select a photo and the app will use machine learning technology to show you which celebrity you most look like and the confidence (percentage) of the match.
 
 ## Prerequisites
@@ -7,7 +6,6 @@ You will need a phone with a camera and an internet connection.  Because of the 
 
 ## Installation
 Open the Blizanac.xcworkspace file in Xcode, connect a phone to the computer, build the project, and run it on the phone.
-
 
 Please download the celebface.mlmodel file separately, move it into the /Blizanac/Blizanac/ directory (same level as the AppDelegate.swift file) before building and running the project in Xcode.  The approximately 580 mb mlmodel file can be downloaded here: [Google Drive link](https://drive.google.com/open?id=13c_FtvSMpReY0Lf35RUVR_XTjtpktziK).
 
@@ -28,6 +26,8 @@ Blizanac will save and persist each successful result into a table view for late
  - SwiftyJSON - JSON parsing library
  - SDWebImage - asynchronous image downloader
  - ChameleonFramework - color framework for iOS
+ - Xcode 9.2
+ - Swift 4
 
 ## License
 Copyright (c) 2018 Brian Jahng
