@@ -26,6 +26,7 @@ Blizanac will save and persist each successful result into a table view for late
  - SwiftyJSON - JSON parsing library
  - SDWebImage - asynchronous image downloader
  - ChameleonFramework - color framework for iOS
+ - Wikipedia API
  - Xcode 9.2
  - Swift 4
 
